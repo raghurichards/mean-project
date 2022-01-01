@@ -1,0 +1,87 @@
+<section class="blog-detail mtb-40">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <div class="blog-left">
+          <h1>Testing A Single Page Angular JS Applications</h1>
+          <div class="posted-on">
+            <p>
+              by <span>Arnab Roy Chowdhury </span> on
+              <span>March 10, 2019</span>
+            </p>
+          </div>
+          <div class="detail-img">
+            <img src="assets/images/img1.jpg" alt="blog1" />
+          </div>
+          <div class="blog-desc">
+            <p>
+              With the introduction of Angular JS, Google brought a paradigm
+              shift in the world of web development. Gone were the days when
+              static web pages consumed a lot of resources and resulted in a
+              website that is slower to load and with each click on a button,
+              resulting in a tiring page reload sequence. Dynamic single page
+              websites or one page website became the new trend where with each
+              user action, only the content of the page changed, sparing the
+              user from experiencing a website full of slower page loads.
+            </p>
+            <p>
+              With the rapid growth of angular and updated ECMA scripts, other
+              frameworks like ReactJS, EmberJS, HandlebarJS were introduced that
+              had the same objective, developing single page applications. Not
+              only in development, but a major revolution was also brought in
+              the testing domain. Since single page application requires special
+              attention than traditional testing procedures. Let’s take a look
+              at the procedures followed while testing a single page angular
+              application.
+            </p>
+            <h1>Unit Testing Using Karma</h1>
+            <p>
+              Karma is a testing framework developed by the Angular team. It was
+              used not in Angular JS but with version 2 and onwards. When a new
+              project is cleared using the CLI, Karma is installed as default
+              with the bundle.
+            </p>
+            <ul>
+              <li>
+                Besides working well with Angular, Karma provides you with the
+                feature to test your application across various devices like
+                tablets or mobiles or even gaming consoles like PlayStation.
+              </li>
+              <li>
+                Karma also helps to integrate testing frameworks like QUnit or
+                Mocha with CircleCI, Jenkins and other integration services.
+              </li>
+            </ul>
+            <h1>Unit Testing Using Jasmine</h1>
+            <p>
+              Jasmine is a testing framework based on JavaScript that follows
+              Behavior Driven Development or BDD, a common software development
+              practice. It is advantageous for testing angular applications
+              because
+            </p>
+            <ul>
+              <li>
+                Describing the test cases in a format that is understandable by
+                a human. Instead of using scripts, the language of Jasmine is
+                very simple and just by technical reading, you can understand
+                what is going on in those test functions.
+              </li>
+              <li>
+                Jasmine is free from dependencies and does not need a DOM.
+              </li>
+              <li>
+                It also has a spying feature that allows the tester to track a
+                function and check whether a specific attribute was called or
+                not.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <app-featured-articles></app-featured-articles>
+        <app-categories></app-categories>
+      </div>
+    </div>
+  </div>
+</section>
